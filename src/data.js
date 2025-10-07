@@ -4,23 +4,23 @@ export const categories = [
   {
     id: 'apericena',
     name: 'CAFFETTERIA',
-    description: 'Taglieri, bruschette e piatti per l\'aperitivo',    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/rJqoqDkQjAqnMyeJ.jpeg'
+    description: 'Taglieri, bruschette e piatti per l\'aperitivo',    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/6.jpeg'
   },
   {
     id: 'vini',
     name: 'COLAZIONI & AMERICAN LIFESTYLE',
-    description: 'Selezione di vini bianchi, rossi e rosé',    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/GMRkHAOFveNDPfkS.jpg'
+    description: 'Selezione di vini bianchi, rossi e rosé',    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/1.jpeg'
   },
   {
     id: 'gin',
     name: 'BEVANDE ANALCOLICHE',
     description: 'Gin premium e cocktail signature',
-    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/lGNrJMYEiqDoGhvl.jpg'  },
+    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/1.jpeg'  },
 
   {
     id: 'pasticceria',
     name: 'BEVANDE ALCOLICHE',
-    description: 'Dolci freschi e pasticcini',    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/XvNwxROkZbJOmSlg.jpg'
+    description: 'Dolci freschi e pasticcini',    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/1.jpeg'
   },
   {
     id: 'pranzo',
@@ -38,7 +38,7 @@ export const menuData = {
       type: 'CAFFÈ',
       description: 'Caffè espresso italiano tradizionale',
       price: 1.20,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/imAZrsdcxmjZFrLc.jpeg',
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/2.jpeg',
       allergens: [],
       dietary: ['vegan']
     },
@@ -48,7 +48,7 @@ export const menuData = {
       type: 'CAFFÈ',
       description: 'Caffè espresso decaffeinato',
       price: 1.20,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/imAZrsdcxmjZFrLc.jpeg',
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/2.jpeg',
       allergens: [],
       dietary: ['vegan']
     },
@@ -58,7 +58,7 @@ export const menuData = {
       type: 'CAFFÈ D\'ORZO',
       description: 'Caffè d’orzo in tazza piccola',
       price: 1.30,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/imAZrsdcxmjZFrLc.jpeg',
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/2.jpeg',
       allergens: ['gluten'],
       dietary: ['vegan']
     },
@@ -68,7 +68,7 @@ export const menuData = {
       type: 'CAFFÈ D\'ORZO',
       description: 'Caffè d’orzo in tazza grande',
       price: 1.30,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/imAZrsdcxmjZFrLc.jpeg',
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/2.jpeg',
       allergens: ['gluten'],
       dietary: ['vegan']
     },
@@ -78,7 +78,7 @@ export const menuData = {
       type: 'CAFFÈ SPECIALE',
       description: 'Caffè con cacao e schiuma di latte',
       price: 1.60,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/imAZrsdcxmjZFrLc.jpeg',
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/2.jpeg',
       allergens: ['lactose'],
       dietary: []
     },
@@ -88,7 +88,7 @@ export const menuData = {
       type: 'CAFFÈ AL GINSENG',
       description: 'Caffè al ginseng in tazza piccola',
       price: 1.50,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/imAZrsdcxmjZFrLc.jpeg',
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/2.jpeg',
       allergens: [],
       dietary: ['vegan']
     },
@@ -98,7 +98,7 @@ export const menuData = {
       type: 'CAFFÈ AL GINSENG',
       description: 'Caffè al ginseng in tazza grande',
       price: 1.70,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/imAZrsdcxmjZFrLc.jpeg',
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/2.jpeg',
       allergens: [],
       dietary: ['vegan']
     },
@@ -108,7 +108,7 @@ export const menuData = {
       type: 'CAFFÈ FREDDO',
       description: 'Caffè shakerato con ghiaccio',
       price: 2.00,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/imAZrsdcxmjZFrLc.jpeg',
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/2.jpeg',
       allergens: [],
       dietary: ['vegan']
     },
@@ -118,7 +118,7 @@ export const menuData = {
       type: 'CAFFÈ SPECIALE',
       description: 'Caffè con aromi speciali',
       price: 2.30,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/imAZrsdcxmjZFrLc.jpeg',
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/2.jpeg',
       allergens: [],
       dietary: []
     },
@@ -128,7 +128,7 @@ export const menuData = {
       type: 'CAFFÈ MACCHIATO',
       description: 'Caffè macchiato con più schiuma di latte',
       price: 1.50,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/imAZrsdcxmjZFrLc.jpeg',
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/2.jpeg',
       allergens: ['lactose'],
       dietary: []
     },
@@ -181,7 +181,7 @@ export const menuData = {
       type: 'DOLCE',
       description: 'Mini croissant classico',
       price: 1.10,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/imAZrsdcxmjZFrLc.jpeg',
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/FWUTsOSWDBwMIJBW.jpeg',
       allergens: ['gluten', 'lactose'],
       dietary: []
     },
@@ -191,7 +191,7 @@ export const menuData = {
       type: 'DOLCE',
       description: 'Assortimento di crostate e frolle',
       price: 1.50,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/imAZrsdcxmjZFrLc.jpeg',
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/2.jpeg',
       allergens: ['gluten', 'lactose', 'eggs'],
       dietary: []
     },
@@ -217,7 +217,158 @@ export const menuData = {
     }
   ],
 
-  gin: [],
+  gin: [
+    {
+      id: 20,
+      name: 'Acqua minerale bottiglia 50 cl',
+      type: 'ACQUA',
+      description: 'Acqua minerale naturale in bottiglia da 50 cl',
+      price: 1.20,
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/acqua_50cl.jpeg',
+      allergens: [],
+      dietary: ['vegan']
+    },
+    {
+      id: 21,
+      name: 'Acqua minerale bottiglia 75 cl',
+      type: 'ACQUA',
+      description: 'Acqua minerale naturale in bottiglia da 75 cl',
+      price: 1.80,
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/acqua_75cl.jpeg',
+      allergens: [],
+      dietary: ['vegan']
+    },
+    {
+      id: 22,
+      name: 'Acqua minerale bottiglia 150 cl',
+      type: 'ACQUA',
+      description: 'Acqua minerale naturale in bottiglia da 150 cl',
+      price: 1.90,
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/acqua_150cl.jpeg',
+      allergens: [],
+      dietary: ['vegan']
+    },
+    {
+      id: 23,
+      name: 'Effervescente digestivo',
+      type: 'DIGESTIVO',
+      description: 'Bevanda effervescente digestiva',
+      price: 1.50,
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/effervescente.jpeg',
+      allergens: [],
+      dietary: ['vegan']
+    },
+    {
+      id: 24,
+      name: 'Succo di frutta 200 cl',
+      type: 'SUCCO',
+      description: 'Succo di frutta naturale da 200 cl',
+      price: 2.80,
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/succo_200cl.jpeg',
+      allergens: [],
+      dietary: ['vegan']
+    },
+    {
+      id: 25,
+      name: 'Succo di frutta bio',
+      type: 'SUCCO',
+      description: 'Succo di frutta biologico',
+      price: 3.50,
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/succo_bio.jpeg',
+      allergens: [],
+      dietary: ['vegan', 'organic']
+    },
+    {
+      id: 26,
+      name: 'Spremuta di agrumi',
+      type: 'SPREMUTA',
+      description: 'Spremuta fresca di agrumi',
+      price: 3.50,
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/spremuta_agrumi.jpeg',
+      allergens: [],
+      dietary: ['vegan']
+    },
+    {
+      id: 27,
+      name: 'Spremuta di melograno',
+      type: 'SPREMUTA',
+      description: 'Spremuta fresca di melograno',
+      price: 4.00,
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/spremuta_melograno.jpeg',
+      allergens: [],
+      dietary: ['vegan']
+    },
+    {
+      id: 28,
+      name: 'Bibite in bottiglia 20 cl',
+      type: 'BIBITA',
+      description: 'Bibite assortite in bottiglia da 20 cl',
+      price: 2.60,
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/bibite_20cl.jpeg',
+      allergens: [],
+      dietary: []
+    },
+    {
+      id: 29,
+      name: 'Bibite in bottiglia 33 cl',
+      type: 'BIBITA',
+      description: 'Bibite assortite in bottiglia da 33 cl',
+      price: 2.90,
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/bibite_33cl.jpeg',
+      allergens: [],
+      dietary: []
+    },
+    {
+      id: 30,
+      name: 'Bibite in bottiglia PET 45 cl',
+      type: 'BIBITA',
+      description: 'Bibite assortite in bottiglia PET da 45 cl',
+      price: 2.90,
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/bibite_45cl.jpeg',
+      allergens: [],
+      dietary: []
+    },
+    {
+      id: 31,
+      name: 'Bibite in bottiglia PET 50 cl',
+      type: 'BIBITA',
+      description: 'Bibite assortite in bottiglia PET da 50 cl',
+      price: 2.90,
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/bibite_50cl.jpeg',
+      allergens: [],
+      dietary: []
+    },
+    {
+      id: 32,
+      name: 'Bibite in lattina 250 cl',
+      type: 'BIBITA',
+      description: 'Bibite assortite in lattina da 250 cl',
+      price: 2.10,
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/bibite_lattina.jpeg',
+      allergens: [],
+      dietary: []
+    },
+    {
+      id: 33,
+      name: 'Red Bull in lattina',
+      type: 'ENERGY DRINK',
+      description: 'Red Bull energy drink in lattina',
+      price: 3.20,
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/red_bull.jpeg',
+      allergens: [],
+      dietary: []
+    },
+    {
+      id: 34,
+      name: 'Estathé brick',
+      type: 'TÈ',
+      description: 'Tè freddo Estathé in brick',
+      price: 1.50,
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/estathe.jpeg',
+      allergens: [],
+      dietary: []
+    }
+  ],
 
 
 
