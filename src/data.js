@@ -38,7 +38,7 @@ export const menuData = {
       type: 'CAFFÈ',
       description: 'Caffè espresso italiano tradizionale',
       price: 1.20,
-      image: 'https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?w=400&h=300&fit=crop',
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/imAZrsdcxmjZFrLc.jpeg',
       allergens: [],
       dietary: ['vegan']
     },
@@ -48,7 +48,7 @@ export const menuData = {
       type: 'CAFFÈ',
       description: 'Caffè espresso decaffeinato',
       price: 1.20,
-      image: 'https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?w=400&h=300&fit=crop',
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/imAZrsdcxmjZFrLc.jpeg',
       allergens: [],
       dietary: ['vegan']
     },
@@ -58,7 +58,7 @@ export const menuData = {
       type: 'CAFFÈ D\'ORZO',
       description: 'Caffè d’orzo in tazza piccola',
       price: 1.30,
-      image: 'https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?w=400&h=300&fit=crop',
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/imAZrsdcxmjZFrLc.jpeg',
       allergens: ['gluten'],
       dietary: ['vegan']
     },
@@ -68,7 +68,7 @@ export const menuData = {
       type: 'CAFFÈ D\'ORZO',
       description: 'Caffè d’orzo in tazza grande',
       price: 1.30,
-      image: 'https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?w=400&h=300&fit=crop',
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/imAZrsdcxmjZFrLc.jpeg',
       allergens: ['gluten'],
       dietary: ['vegan']
     },
@@ -78,7 +78,7 @@ export const menuData = {
       type: 'CAFFÈ SPECIALE',
       description: 'Caffè con cacao e schiuma di latte',
       price: 1.60,
-      image: 'https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?w=400&h=300&fit=crop',
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/imAZrsdcxmjZFrLc.jpeg',
       allergens: ['lactose'],
       dietary: []
     },
@@ -88,7 +88,7 @@ export const menuData = {
       type: 'CAFFÈ AL GINSENG',
       description: 'Caffè al ginseng in tazza piccola',
       price: 1.50,
-      image: 'https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?w=400&h=300&fit=crop',
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/imAZrsdcxmjZFrLc.jpeg',
       allergens: [],
       dietary: ['vegan']
     },
@@ -98,7 +98,7 @@ export const menuData = {
       type: 'CAFFÈ AL GINSENG',
       description: 'Caffè al ginseng in tazza grande',
       price: 1.70,
-      image: 'https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?w=400&h=300&fit=crop',
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/imAZrsdcxmjZFrLc.jpeg',
       allergens: [],
       dietary: ['vegan']
     },
@@ -108,7 +108,7 @@ export const menuData = {
       type: 'CAFFÈ FREDDO',
       description: 'Caffè shakerato con ghiaccio',
       price: 2.00,
-      image: 'https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?w=400&h=300&fit=crop',
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/imAZrsdcxmjZFrLc.jpeg',
       allergens: [],
       dietary: ['vegan']
     },
@@ -118,7 +118,7 @@ export const menuData = {
       type: 'CAFFÈ SPECIALE',
       description: 'Caffè con aromi speciali',
       price: 2.30,
-      image: 'https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?w=400&h=300&fit=crop',
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/imAZrsdcxmjZFrLc.jpeg',
       allergens: [],
       dietary: []
     },
@@ -128,7 +128,7 @@ export const menuData = {
       type: 'CAFFÈ MACCHIATO',
       description: 'Caffè macchiato con più schiuma di latte',
       price: 1.50,
-      image: 'https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?w=400&h=300&fit=crop',
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/imAZrsdcxmjZFrLc.jpeg',
       allergens: ['lactose'],
       dietary: []
     },
@@ -171,7 +171,7 @@ export const menuData = {
       type: 'DOLCE',
       description: 'Croissant classico',
       price: 1.50,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/FWUTsOSWDBwMIJBW.jpeg',
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/imAZrsdcxmjZFrLc.jpeg',
       allergens: ['gluten', 'lactose'],
       dietary: []
     },
@@ -181,7 +181,7 @@ export const menuData = {
       type: 'DOLCE',
       description: 'Mini croissant classico',
       price: 1.10,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/FWUTsOSWDBwMIJBW.jpeg',
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/imAZrsdcxmjZFrLc.jpeg',
       allergens: ['gluten', 'lactose'],
       dietary: []
     },
@@ -191,7 +191,7 @@ export const menuData = {
       type: 'DOLCE',
       description: 'Assortimento di crostate e frolle',
       price: 1.50,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/FWUTsOSWDBwMIJBW.jpeg',
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/imAZrsdcxmjZFrLc.jpeg',
       allergens: ['gluten', 'lactose', 'eggs'],
       dietary: []
     },
