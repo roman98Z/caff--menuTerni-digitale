@@ -171,7 +171,7 @@ export const menuData = {
       type: 'DOLCE',
       description: 'Croissant classico',
       price: 1.50,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/imAZrsdcxmjZFrLc.jpeg',
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/oaDXvOgIxLpVGrvU.webp',
       allergens: ['gluten', 'lactose'],
       dietary: []
     },
