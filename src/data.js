@@ -171,7 +171,7 @@ export const menuData = {
       type: 'DOLCE',
       description: 'Croissant classico',
       price: 1.50,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/JaOYtGSbLtrQDGkE.webp',
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/FWUTsOSWDBwMIJBW.jpeg',
       allergens: ['gluten', 'lactose'],
       dietary: []
     },
@@ -181,7 +181,7 @@ export const menuData = {
       type: 'DOLCE',
       description: 'Mini croissant classico',
       price: 1.10,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/JaOYtGSbLtrQDGkE.webp',
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/FWUTsOSWDBwMIJBW.jpeg',
       allergens: ['gluten', 'lactose'],
       dietary: []
     },
@@ -191,7 +191,7 @@ export const menuData = {
       type: 'DOLCE',
       description: 'Assortimento di crostate e frolle',
       price: 1.50,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/JaOYtGSbLtrQDGkE.webp',
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/FWUTsOSWDBwMIJBW.jpeg',
       allergens: ['gluten', 'lactose', 'eggs'],
       dietary: []
     },
