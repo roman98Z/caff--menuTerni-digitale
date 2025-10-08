@@ -3,31 +3,31 @@ export const categories = [
     id: 'caffetteria',
     name: 'CAFFETTERIA',
     description: 'Caffè, cappuccini e altre bevande calde',
-    image: '/images/caffetteria.jpg'
+    image: '/images/caffetteria.webp'
   },
   {
     id: 'colazioni',
     name: 'COLAZIONI & AMERICAN LIFESTYLE',
     description: 'Croissant, torte e altre dolcezze',
-    image: '/images/colazioni.jpg'
+    image: '/images/colazioni_american_lifestyle.webp'
   },
   {
     id: 'bevande_analcoliche',
     name: 'BEVANDE ANALCOLICHE',
     description: 'Acque, bibite, succhi e altre bevande',
-    image: '/images/bevande_analcoliche.jpg'
+    image: '/images/bevande_analcoliche.webp'
   },
   {
     id: 'bevande_alcoliche',
     name: 'BEVANDE ALCOLICHE',
     description: 'Birre, vini e cocktail',
-    image: '/images/bevande_alcoliche.jpg'
+    image: '/images/bevande_alcoliche.webp'
   },
   {
     id: 'pranzo',
     name: 'Pranzo',
     description: 'Piatti principali e primi',
-    image: '/images/pranzo.jpg'
+    image: '/images/pranzo.webp'
   }
 ];
 
@@ -39,7 +39,7 @@ export const menuData = {
       type: 'CAFFÈ',
       description: 'Caffè espresso italiano tradizionale',
       price: 1.20,
-      image: '/images/caffe_espresso.jpg',
+      image: '/images/caffe_espresso.webp',
       allergens: [],
       dietary: ['vegan']
     },
@@ -49,7 +49,7 @@ export const menuData = {
       type: 'CAFFÈ',
       description: 'Caffè espresso decaffeinato',
       price: 1.20,
-      image: '/images/caffe_decaffeinato.jpg',
+      image: '/images/caffe_decaffeinato.webp',
       allergens: [],
       dietary: ['vegan']
     },
@@ -59,7 +59,7 @@ export const menuData = {
       type: 'CAFFÈ D\'ORZO',
       description: 'Caffè d’orzo in tazza piccola',
       price: 1.30,
-      image: '/images/caffe_dorzo_piccolo.jpg',
+      image: '/images/caffe_dorzo_piccolo.webp',
       allergens: ['gluten'],
       dietary: ['vegan']
     },
@@ -69,7 +69,7 @@ export const menuData = {
       type: 'CAFFÈ D\'ORZO',
       description: 'Caffè d’orzo in tazza grande',
       price: 1.30,
-      image: '/images/caffe_dorzo_grande.jpg',
+      image: '/images/caffe_dorzo_grande.webp',
       allergens: ['gluten'],
       dietary: ['vegan']
     },
@@ -79,7 +79,7 @@ export const menuData = {
       type: 'CAFFÈ SPECIALE',
       description: 'Caffè con cacao e schiuma di latte',
       price: 1.60,
-      image: '/images/caffe_marocchino.jpg',
+      image: '/images/caffe_marocchino.webp',
       allergens: ['lactose'],
       dietary: []
     },
@@ -109,7 +109,7 @@ export const menuData = {
       type: 'CAFFÈ FREDDO',
       description: 'Caffè shakerato con ghiaccio',
       price: 2.00,
-      image: '/images/caffe_shakerato.jpg',
+      image: '/images/caffe_shakerato.webp',
       allergens: [],
       dietary: ['vegan']
     },
@@ -119,7 +119,7 @@ export const menuData = {
       type: 'CAFFÈ SPECIALE',
       description: 'Caffè con aromi speciali',
       price: 2.30,
-      image: '/images/caffe_speciali.jpg',
+      image: '/images/caffe_speciali.webp',
       allergens: [],
       dietary: []
     },
@@ -129,7 +129,7 @@ export const menuData = {
       type: 'CAFFÈ MACCHIATO',
       description: 'Caffè macchiato con più schiuma di latte',
       price: 1.50,
-      image: '/images/macchiatone.jpg',
+      image: '/images/macchiatone.webp',
       allergens: ['lactose'],
       dietary: []
     },
@@ -139,7 +139,7 @@ export const menuData = {
       type: 'CAFFÈ',
       description: 'Cappuccino cremoso con latte montato',
       price: 1.60,
-      image: '/images/cappuccino.jpg',
+      image: '/images/cappuccino.webp',
       allergens: ['lactose'],
       dietary: []
     },
@@ -149,7 +149,7 @@ export const menuData = {
       type: 'CAFFÈ',
       description: 'Cappuccino con caffè decaffeinato',
       price: 1.50,
-      image: '/images/cappuccino_decaffeinato.jpg',
+      image: '/images/cappuccino_decaffeinato.webp',
       allergens: ['lactose'],
       dietary: []
     },
@@ -159,7 +159,7 @@ export const menuData = {
       type: 'CAFFÈ D\'ORZO',
       description: 'Cappuccino con caffè d’orzo',
       price: 1.60,
-      image: '/images/cappuccino_dorzo.jpg',
+      image: '/images/cappuccino_dorzo.webp',
       allergens: ['gluten', 'lactose'],
       dietary: []
     }
@@ -172,7 +172,7 @@ export const menuData = {
       type: 'DOLCE',
       description: 'Croissant classico',
       price: 1.50,
-      image: '/images/croissant.jpg',
+      image: '/images/croissant.webp',
       allergens: ['gluten', 'lactose'],
       dietary: []
     },
@@ -182,7 +182,7 @@ export const menuData = {
       type: 'DOLCE',
       description: 'Mini croissant classico',
       price: 1.10,
-      image: '/images/mini_croissant.jpg',
+      image: '/images/mini_croissant.webp',
       allergens: ['gluten', 'lactose'],
       dietary: []
     },
@@ -192,7 +192,7 @@ export const menuData = {
       type: 'DOLCE',
       description: 'Assortimento di crostate e frolle',
       price: 1.50,
-      image: '/images/crostate_e_frolle.jpg',
+      image: '/images/crostate_e_frolle.webp',
       allergens: ['gluten', 'lactose', 'eggs'],
       dietary: []
     },
@@ -202,7 +202,7 @@ export const menuData = {
       type: 'DOLCE',
       description: 'Biscotti di vario tipo',
       price: 0.50,
-      image: '/images/biscotti_assortiti.jpg',
+      image: '/images/biscotti_assortiti.webp',
       allergens: ['gluten', 'lactose', 'eggs'],
       dietary: []
     },
@@ -212,7 +212,7 @@ export const menuData = {
       type: 'DOLCE',
       description: 'Mini crostate con pesche fresche',
       price: 1.00,
-      image: '/images/mini_crostate_pesche.jpg',
+      image: '/images/mini_crostate_pesche.webp',
       allergens: ['gluten', 'lactose', 'eggs'],
       dietary: []
     }
@@ -225,7 +225,7 @@ export const menuData = {
       type: 'ACQUA',
       description: 'Acqua minerale naturale in bottiglia da 50 cl',
       price: 1.20,
-      image: '/images/acqua_minerale_50cl.jpg',
+      image: '/images/acqua_minerale_50cl.webp',
       allergens: [],
       dietary: ['vegan']
     },
@@ -235,7 +235,7 @@ export const menuData = {
       type: 'ACQUA',
       description: 'Acqua minerale naturale in bottiglia da 75 cl',
       price: 1.80,
-      image: '/images/acqua_minerale_75cl.jpg',
+      image: '/images/acqua_minerale_75cl.webp',
       allergens: [],
       dietary: ['vegan']
     },
@@ -245,7 +245,7 @@ export const menuData = {
       type: 'ACQUA',
       description: 'Acqua minerale naturale in bottiglia da 150 cl',
       price: 1.90,
-      image: '/images/acqua_minerale_150cl.jpg',
+      image: '/images/acqua_minerale_150cl.webp',
       allergens: [],
       dietary: ['vegan']
     },
@@ -255,7 +255,7 @@ export const menuData = {
       type: 'DIGESTIVO',
       description: 'Bevanda effervescente digestiva',
       price: 1.50,
-      image: '/images/effervescente_digestivo.jpg',
+      image: '/images/effervescente_digestivo.webp',
       allergens: [],
       dietary: ['vegan']
     },
@@ -265,7 +265,7 @@ export const menuData = {
       type: 'SUCCO',
       description: 'Succo di frutta naturale da 200 cl',
       price: 2.80,
-      image: '/images/succo_di_frutta_200cl.jpg',
+      image: '/images/succo_di_frutta_200cl.webp',
       allergens: [],
       dietary: ['vegan']
     },
@@ -275,7 +275,7 @@ export const menuData = {
       type: 'SUCCO',
       description: 'Succo di frutta biologico',
       price: 3.50,
-      image: '/images/succo_di_frutta_bio.jpg',
+      image: '/images/succo_di_frutta_bio.webp',
       allergens: [],
       dietary: ['vegan', 'organic']
     },
@@ -285,7 +285,7 @@ export const menuData = {
       type: 'SPREMUTA',
       description: 'Spremuta fresca di agrumi',
       price: 3.50,
-      image: '/images/spremuta_di_agrumi.jpg',
+      image: '/images/spremuta_di_agrumi.webp',
       allergens: [],
       dietary: ['vegan']
     },
@@ -295,7 +295,7 @@ export const menuData = {
       type: 'SPREMUTA',
       description: 'Spremuta fresca di melograno',
       price: 4.00,
-      image: '/images/spremuta_di_melograno.jpg',
+      image: '/images/spremuta_di_melograno.webp',
       allergens: [],
       dietary: ['vegan']
     },
@@ -305,7 +305,7 @@ export const menuData = {
       type: 'BIBITA',
       description: 'Bibite assortite in bottiglia da 20 cl',
       price: 2.60,
-      image: '/images/bibite_20cl.jpg',
+      image: '/images/bibite_20cl.webp',
       allergens: [],
       dietary: []
     },
@@ -315,7 +315,7 @@ export const menuData = {
       type: 'BIBITA',
       description: 'Bibite assortite in bottiglia da 33 cl',
       price: 2.90,
-      image: '/images/bibite_33cl.jpg',
+      image: '/images/bibite_33cl.webp',
       allergens: [],
       dietary: []
     },
@@ -325,7 +325,7 @@ export const menuData = {
       type: 'BIBITA',
       description: 'Bibite assortite in bottiglia PET da 45 cl',
       price: 2.90,
-      image: '/images/bibite_pet_45cl.jpg',
+      image: '/images/bibite_pet_45cl.webp',
       allergens: [],
       dietary: []
     },
@@ -335,7 +335,7 @@ export const menuData = {
       type: 'BIBITA',
       description: 'Bibite assortite in bottiglia PET da 50 cl',
       price: 2.90,
-      image: '/images/bibite_pet_50cl.jpg',
+      image: '/images/bibite_pet_50cl.webp',
       allergens: [],
       dietary: []
     },
@@ -345,7 +345,7 @@ export const menuData = {
       type: 'BIBITA',
       description: 'Bibite assortite in lattina da 250 cl',
       price: 2.10,
-      image: '/images/bibite_lattina_250cl.jpg',
+      image: '/images/bibite_lattina_250cl.webp',
       allergens: [],
       dietary: []
     },
@@ -355,7 +355,7 @@ export const menuData = {
       type: 'ENERGY DRINK',
       description: 'Red Bull energy drink in lattina',
       price: 3.20,
-      image: '/images/red_bull.jpg',
+      image: '/images/red_bull.webp',
       allergens: [],
       dietary: []
     },
@@ -365,7 +365,7 @@ export const menuData = {
       type: 'TÈ',
       description: 'Tè freddo Estathé in brick',
       price: 1.50,
-      image: '/images/estathe.jpg',
+      image: '/images/estathe.webp',
       allergens: [],
       dietary: []
     }
@@ -378,7 +378,7 @@ export const menuData = {
       type: 'BIRRA',
       description: 'Birra artigianale IPA, 5.5% vol.',
       price: 5.00,
-      image: '/images/birra_ipa.jpg',
+      image: '/images/birra_ipa.webp',
       allergens: ['gluten'],
       dietary: []
     },
@@ -388,7 +388,7 @@ export const menuData = {
       type: 'VINO',
       description: 'Calice di vino rosso selezionato',
       price: 4.50,
-      image: '/images/vino_rosso.jpg',
+      image: '/images/vino_rosso.webp',
       allergens: ['sulfites'],
       dietary: []
     },
@@ -398,7 +398,7 @@ export const menuData = {
       type: 'COCKTAIL',
       description: 'Cocktail classico con rum, menta, lime e soda',
       price: 8.00,
-      image: '/images/mojito.jpg',
+      image: '/images/mojito.webp',
       allergens: [],
       dietary: []
     }
@@ -411,7 +411,7 @@ export const menuData = {
       type: 'PRIMO',
       description: 'Spaghetti alla carbonara tradizionale romana',
       price: 8.50,
-      image: '/images/pasta_carbonara.jpg',
+      image: '/images/pasta_carbonara.webp',
       allergens: ['gluten', 'eggs', 'lactose'],
       dietary: []
     },
@@ -421,7 +421,7 @@ export const menuData = {
       type: 'SECONDO',
       description: 'Insalata Caesar con pollo grigliato',
       price: 7.00,
-      image: '/images/insalata_caesar.jpg',
+      image: '/images/insalata_caesar.webp',
       allergens: ['eggs', 'lactose'],
       dietary: []
     },
@@ -431,7 +431,7 @@ export const menuData = {
       type: 'PRIMO',
       description: 'Risotto cremoso con funghi porcini',
       price: 9.00,
-      image: '/images/risotto_porcini.jpg',
+      image: '/images/risotto_porcini.webp',
       allergens: ['lactose'],
       dietary: []
     }
@@ -455,4 +455,5 @@ export const dietaryIcons = {
   vegetarian: '🥕',
   organic: '🌿'
 }
+
 
