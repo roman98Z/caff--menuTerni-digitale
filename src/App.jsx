@@ -96,11 +96,11 @@ function App() {
                     className="cursor-pointer hover:shadow-xl transition-all duration-300 transform hover:scale-105 border-0 bg-transparent"
                     onClick={() => setSelectedCategory(category)}
                   >
-                    <div className="aspect-[4/3] relative flex items-center justify-center h-full">
+                    <div className="relative flex items-center justify-center h-48">
                       <img
                         src={category.image}
                         alt={category.name}
-                        className="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
+                        className="object-cover transition-transform duration-300 hover:scale-110 w-full h-full"
                       />
                       <div className="absolute inset-0 bg-black/20 hover:bg-black/10 transition-colors duration-300" />
                     </div>
