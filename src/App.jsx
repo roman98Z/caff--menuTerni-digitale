@@ -6,7 +6,7 @@ import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } f
 import { Moon, Sun } from 'lucide-react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { categories, menuData, allergenIcons, dietaryIcons } from './data.js'
-import logoImage from './assets/logo.jpeg'
+import logoImage from '/caff--menuTerni-digitale/assets/logo.jpeg'
 import LoadingScreen from './components/LoadingScreen.jsx' // Importa il componente LoadingScreen
 import './App.css'
 

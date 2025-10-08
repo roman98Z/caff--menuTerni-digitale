@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import logoImage from '../assets/logo.jpeg';
+import logoImage from '/caff--menuTerni-digitale/assets/logo.jpeg';
 import '../App.css';
 
 const LoadingScreen = ({ onLoaded }) => {
