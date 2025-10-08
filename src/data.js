@@ -373,33 +373,33 @@ export const menuData = {
 
   bevande_alcoliche: [
     {
-      id: 14,
-      name: 'Cornetto alla Crema',
-      type: 'DOLCE',
-      description: 'Cornetto fresco ripieno di crema pasticcera',
-      price: 1.50,
+      id: 35,
+      name: 'Birra Artigianale IPA',
+      type: 'BIRRA',
+      description: 'Birra artigianale IPA, 5.5% vol.',
+      price: 5.00,
       image: 'https://images.unsplash.com/photo-1590080875830-57886b1b8f21?w=400&h=300&fit=crop',
-      allergens: ['gluten', 'eggs', 'lactose'],
+      allergens: ['gluten'],
       dietary: []
     },
     {
-      id: 15,
-      name: 'Maritozzo',
-      type: 'DOLCE',
-      description: 'Maritozzo romano con panna montata',
-      price: 2.50,
-      image: 'https://images.unsplash.com/photo-1590080875830-57886b1b8f21?w=400&h=300&fit=crop',
-      allergens: ['gluten', 'eggs', 'lactose'],
-      dietary: []
-    },
-    {
-      id: 16,
-      name: 'Tiramisù',
-      type: 'DOLCE',
-      description: 'Tiramisù della casa con mascarpone e caffè',
+      id: 36,
+      name: 'Calice di Vino Rosso',
+      type: 'VINO',
+      description: 'Calice di vino rosso selezionato',
       price: 4.50,
       image: 'https://images.unsplash.com/photo-1590080875830-57886b1b8f21?w=400&h=300&fit=crop',
-      allergens: ['gluten', 'eggs', 'lactose'],
+      allergens: ['sulfites'],
+      dietary: []
+    },
+    {
+      id: 37,
+      name: 'Mojito',
+      type: 'COCKTAIL',
+      description: 'Cocktail classico con rum, menta, lime e soda',
+      price: 8.00,
+      image: 'https://images.unsplash.com/photo-1590080875830-57886b1b8f21?w=400&h=300&fit=crop',
+      allergens: [],
       dietary: []
     }
   ],
