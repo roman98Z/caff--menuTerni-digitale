@@ -105,8 +105,8 @@ function App() {
                       <div className="absolute inset-0 bg-black/20 hover:bg-black/10 transition-colors duration-300" />
                     </div>
                     <CardHeader className="text-center p-4 h-28 flex flex-col justify-center">
-                      <CardTitle className="text-xl font-bold leading-tight">{category.name}</CardTitle>
-                      <CardDescription className="text-sm text-muted-foreground mt-1 leading-tight">
+                      <CardTitle className="text-xl font-bold leading-tight line-clamp-2">{category.name}</CardTitle>
+                      <CardDescription className="text-sm text-muted-foreground mt-1 leading-tight line-clamp-2">
                         {category.description}
                       </CardDescription>
                     </CardHeader>
@@ -118,15 +118,15 @@ function App() {
 
           {/* Modal Prodotti */}
           <Dialog open={!!selectedCategory} onOpenChange={() => setSelectedCategory(null)}>
-            <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto">
-              <DialogHeader>
-                <DialogTitle className="text-2xl">{selectedCategory?.name}</DialogTitle>
-                <DialogDescription>
+            <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto p-4 sm:p-6 md:p-8">
+              <DialogHeader className="mb-4">
+                <DialogTitle className="text-3xl font-bold text-center">{selectedCategory?.name}</DialogTitle>
+                <DialogDescription className="text-base text-center text-muted-foreground">
                   {selectedCategory?.description}
                 </DialogDescription>
               </DialogHeader>
               
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">
                 {selectedProducts.map(product => (
                   <motion.div
                     key={product.id}
@@ -134,7 +134,7 @@ function App() {
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.2 }}
                   >
-                    <Card className="overflow-hidden h-full">
+                    <Card className="overflow-hidden h-full flex flex-col">
                       <div className="aspect-video relative overflow-hidden">
                         <img
                           src={product.image}
@@ -142,21 +142,21 @@ function App() {
                           className="w-full h-full object-cover"
                         />
                       </div>
-                      <CardHeader className="pb-2">
+                      <CardHeader className="pb-2 flex-grow">
                         <div className="flex justify-between items-start">
-                          <div className="flex-1">
-                            <CardTitle className="text-lg">{product.name}</CardTitle>
+                          <div className="flex-1 pr-2">
+                            <CardTitle className="text-lg font-semibold leading-tight">{product.name}</CardTitle>
                             <Badge variant="secondary" className="text-xs mt-1">
                               {product.type}
                             </Badge>
                           </div>
-                          <Badge variant="outline" className="text-lg font-bold text-orange-600">
+                          <Badge variant="outline" className="text-lg font-bold text-orange-600 flex-shrink-0">
                             €{product.price.toFixed(2)}
                           </Badge>
                         </div>
                       </CardHeader>
                       <CardContent className="pt-2">
-                        <p className="text-sm text-muted-foreground mb-3">
+                        <p className="text-sm text-muted-foreground mb-3 line-clamp-2">
                           {product.description}
                         </p>
                         
