@@ -4,29 +4,29 @@ export const categories = [
   {
     id: 'apericena',
     name: 'CAFFETTERIA',
-    description: 'Taglieri, bruschette e piatti per l\'aperitivo',    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/6.jpeg'
+    description: 'Taglieri, bruschette e piatti per l\'aperitivo',    image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&h=400&fit=crop'
   },
   {
     id: 'vini',
     name: 'COLAZIONI & AMERICAN LIFESTYLE',
-    description: 'Selezione di vini bianchi, rossi e rosé',    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/1.jpeg'
+    description: 'Selezione di vini bianchi, rossi e rosé',    image: 'https://images.unsplash.com/photo-1590080875830-57886b1b8f21?w=600&h=400&fit=crop'
   },
   {
     id: 'gin',
     name: 'BEVANDE ANALCOLICHE',
     description: 'Gin premium e cocktail signature',
-    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/1.jpeg'  },
+    image: 'https://images.unsplash.com/photo-1590080875830-57886b1b8f21?w=600&h=400&fit=crop'  },
 
   {
     id: 'pasticceria',
     name: 'BEVANDE ALCOLICHE',
-    description: 'Dolci freschi e pasticcini',    image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/1.jpeg'
+    description: 'Dolci freschi e pasticcini',    image: 'https://images.unsplash.com/photo-1590080875830-57886b1b8f21?w=600&h=400&fit=crop'
   },
   {
     id: 'pranzo',
     name: 'Pranzo',
     description: 'Piatti principali e primi',
-    image: 'https://images.unsplash.com/photo-1621996346565-e3dbc353d2e5?w=600&h=400&fit=crop'
+    image: 'https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=600&h=400&fit=crop'
   }
 ];
 
