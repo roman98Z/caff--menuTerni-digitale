@@ -4,12 +4,14 @@ export const categories = [
   {
     id: 'caffetteria',
     name: 'CAFFETTERIA',
-    description: 'Caffè, cappuccini e altre bevande calde',    image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&h=400&fit=crop'
+    description: 'Caffè, cappuccini e altre bevande calde',
+    image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&h=400&fit=crop'
   },
   {
     id: 'colazioni',
     name: 'COLAZIONI & AMERICAN LIFESTYLE',
-    description: 'Croissant, torte e altre dolcezze',    image: 'https://images.unsplash.com/photo-1529070538774-1843cb3265df?w=600&h=400&fit=crop'
+    description: 'Croissant, torte e altre dolcezze',
+    image: 'https://images.unsplash.com/photo-1529070538774-1843cb3265df?w=600&h=400&fit=crop'
   },
   {
     id: 'bevande_analcoliche',
@@ -39,7 +41,7 @@ export const menuData = {
       type: 'CAFFÈ',
       description: 'Caffè espresso italiano tradizionale',
       price: 1.20,
-      image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&h=300&fit=crop',
+      image: 'https://www.coffeebybeans.com/cdn/shop/articles/Espresso_What_is_it_1696x954.jpg?v=1618338920',
       allergens: [],
       dietary: ['vegan']
     },
@@ -49,7 +51,7 @@ export const menuData = {
       type: 'CAFFÈ',
       description: 'Caffè espresso decaffeinato',
       price: 1.20,
-      image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&h=300&fit=crop',
+      image: 'https://www.mokabar.it/wp-content/uploads/2023/05/caffe-decaffeinato-proprieta-rischi-salute.jpg',
       allergens: [],
       dietary: ['vegan']
     },
@@ -59,7 +61,7 @@ export const menuData = {
       type: 'CAFFÈ D\'ORZO',
       description: 'Caffè d’orzo in tazza piccola',
       price: 1.30,
-      image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&h=300&fit=crop',
+      image: 'https://www.tasteatlas.com/images/dishes/201867181054_Caffe-d-Orzo.jpg?w=2800&h=1220&fit=max',
       allergens: ['gluten'],
       dietary: ['vegan']
     },
@@ -69,7 +71,7 @@ export const menuData = {
       type: 'CAFFÈ D\'ORZO',
       description: 'Caffè d’orzo in tazza grande',
       price: 1.30,
-      image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&h=300&fit=crop',
+      image: 'https://www.chiringuitocarugate.it/wp-content/uploads/2020/07/Caffe-dOrzo-Grande.jpeg',
       allergens: ['gluten'],
       dietary: ['vegan']
     },
@@ -79,7 +81,7 @@ export const menuData = {
       type: 'CAFFÈ SPECIALE',
       description: 'Caffè con cacao e schiuma di latte',
       price: 1.60,
-      image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&h=300&fit=crop',
+      image: 'https://www.lacucinaitaliana.com/content/uploads/2022/01/Marocchino-coffee-recipe.jpg',
       allergens: ['lactose'],
       dietary: []
     },
@@ -89,7 +91,7 @@ export const menuData = {
       type: 'CAFFÈ AL GINSENG',
       description: 'Caffè al ginseng in tazza piccola',
       price: 1.50,
-      image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&h=300&fit=crop',
+      image: 'https://www.caffeaiello.it/wp-content/uploads/2021/07/caffe-ginseng-come-si-fa.jpg',
       allergens: [],
       dietary: ['vegan']
     },
@@ -99,7 +101,7 @@ export const menuData = {
       type: 'CAFFÈ AL GINSENG',
       description: 'Caffè al ginseng in tazza grande',
       price: 1.70,
-      image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&h=300&fit=crop',
+      image: 'https://www.officinegastronomiche.it/wp-content/uploads/2020/09/ginseng-platinum.jpg',
       allergens: [],
       dietary: ['vegan']
     },
@@ -109,7 +111,7 @@ export const menuData = {
       type: 'CAFFÈ FREDDO',
       description: 'Caffè shakerato con ghiaccio',
       price: 2.00,
-      image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&h=300&fit=crop',
+      image: 'https://www.seriousseats.com/thmb/T-2-hR4H-v-i-o-I-m-m-m-I=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/caffe-shakerato-hero-01-4c5cf9b1c99e45a08070337b34d9a944.jpg',
       allergens: [],
       dietary: ['vegan']
     },
@@ -119,7 +121,7 @@ export const menuData = {
       type: 'CAFFÈ SPECIALE',
       description: 'Caffè con aromi speciali',
       price: 2.30,
-      image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&h=300&fit=crop',
+      image: 'https://www.tripadvisor.com/LocationPhotoDirectLink-g187801-d10260640-i214777904-Dolce_Vita_Caffe-Bologna_Province_of_Bologna_Emilia_Romagna.html',
       allergens: [],
       dietary: []
     },
@@ -129,7 +131,7 @@ export const menuData = {
       type: 'CAFFÈ MACCHIATO',
       description: 'Caffè macchiato con più schiuma di latte',
       price: 1.50,
-      image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&h=300&fit=crop',
+      image: 'https://www.caffevergnano.com/blog/wp-content/uploads/2021/02/macchiatone-caffe-vergnano.jpg',
       allergens: ['lactose'],
       dietary: []
     },
@@ -139,7 +141,7 @@ export const menuData = {
       type: 'CAFFÈ',
       description: 'Cappuccino cremoso con latte montato',
       price: 1.60,
-      image: 'https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=400&h=300&fit=crop',
+      image: 'https://www.acouplecooks.com/wp-content/uploads/2020/09/How-to-Make-Cappuccino-006.jpg',
       allergens: ['lactose'],
       dietary: []
     },
@@ -149,7 +151,7 @@ export const menuData = {
       type: 'CAFFÈ',
       description: 'Cappuccino con caffè decaffeinato',
       price: 1.50,
-      image: 'https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=400&h=300&fit=crop',
+      image: 'https://www.amazon.com/images/I/71Y-s-h-s-L._AC_SL1000_.jpg',
       allergens: ['lactose'],
       dietary: []
     },
@@ -159,7 +161,7 @@ export const menuData = {
       type: 'CAFFÈ D\'ORZO',
       description: 'Cappuccino con caffè d’orzo',
       price: 1.60,
-      image: 'https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=400&h=300&fit=crop',
+      image: 'https://www.bellaitaliafoodstore.com/cdn/shop/products/orzo-bimbo-cappuccino-d-orzo-150-gr-1_1024x1024.jpg?v=1620923010',
       allergens: ['gluten', 'lactose'],
       dietary: []
     }
