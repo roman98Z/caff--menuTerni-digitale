@@ -2,25 +2,26 @@
 
 export const categories = [
   {
-    id: 'apericena',
+    id: 'caffetteria',
     name: 'CAFFETTERIA',
-    description: 'Taglieri, bruschette e piatti per l\'aperitivo',    image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&h=400&fit=crop'
+    description: 'Caffè, cappuccini e altre bevande calde',    image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&h=400&fit=crop'
   },
   {
     id: 'colazioni',
     name: 'COLAZIONI & AMERICAN LIFESTYLE',
-    description: 'Selezione di vini bianchi, rossi e rosé',    image: 'https://images.unsplash.com/photo-1590080875830-57886b1b8f21?w=600&h=400&fit=crop'
+    description: 'Croissant, torte e altre dolcezze',    image: 'https://images.unsplash.com/photo-1529070538774-1843cb3265df?w=600&h=400&fit=crop'
   },
   {
     id: 'bevande_analcoliche',
     name: 'BEVANDE ANALCOLICHE',
-    description: 'Bevande analcoliche di vario tipo',
-    image: 'https://images.unsplash.com/photo-1590080875830-57886b1b8f21?w=600&h=400&fit=crop'  },
-
+    description: 'Acque, bibite, succhi e altre bevande',
+    image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=600&h=400&fit=crop'
+  },
   {
-    id: 'pasticceria',
+    id: 'bevande_alcoliche',
     name: 'BEVANDE ALCOLICHE',
-    description: 'Dolci freschi e pasticcini',    image: 'https://images.unsplash.com/photo-1590080875830-57886b1b8f21?w=600&h=400&fit=crop'
+    description: 'Birre, vini e cocktail',
+    image: 'https://images.unsplash.com/photo-1590080875830-57886b1b8f21?w=600&h=400&fit=crop'
   },
   {
     id: 'pranzo',
@@ -31,14 +32,14 @@ export const categories = [
 ];
 
 export const menuData = {
-  apericena: [
+  caffetteria: [
     {
       id: 1,
       name: 'Caffè espresso',
       type: 'CAFFÈ',
       description: 'Caffè espresso italiano tradizionale',
       price: 1.20,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/2.jpeg',
+      image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&h=300&fit=crop',
       allergens: [],
       dietary: ['vegan']
     },
@@ -48,7 +49,7 @@ export const menuData = {
       type: 'CAFFÈ',
       description: 'Caffè espresso decaffeinato',
       price: 1.20,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/2.jpeg',
+      image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&h=300&fit=crop',
       allergens: [],
       dietary: ['vegan']
     },
@@ -58,7 +59,7 @@ export const menuData = {
       type: 'CAFFÈ D\'ORZO',
       description: 'Caffè d’orzo in tazza piccola',
       price: 1.30,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/2.jpeg',
+      image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&h=300&fit=crop',
       allergens: ['gluten'],
       dietary: ['vegan']
     },
@@ -68,7 +69,7 @@ export const menuData = {
       type: 'CAFFÈ D\'ORZO',
       description: 'Caffè d’orzo in tazza grande',
       price: 1.30,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/2.jpeg',
+      image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&h=300&fit=crop',
       allergens: ['gluten'],
       dietary: ['vegan']
     },
@@ -78,7 +79,7 @@ export const menuData = {
       type: 'CAFFÈ SPECIALE',
       description: 'Caffè con cacao e schiuma di latte',
       price: 1.60,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/2.jpeg',
+      image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&h=300&fit=crop',
       allergens: ['lactose'],
       dietary: []
     },
@@ -88,7 +89,7 @@ export const menuData = {
       type: 'CAFFÈ AL GINSENG',
       description: 'Caffè al ginseng in tazza piccola',
       price: 1.50,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/2.jpeg',
+      image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&h=300&fit=crop',
       allergens: [],
       dietary: ['vegan']
     },
@@ -98,7 +99,7 @@ export const menuData = {
       type: 'CAFFÈ AL GINSENG',
       description: 'Caffè al ginseng in tazza grande',
       price: 1.70,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/2.jpeg',
+      image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&h=300&fit=crop',
       allergens: [],
       dietary: ['vegan']
     },
@@ -108,7 +109,7 @@ export const menuData = {
       type: 'CAFFÈ FREDDO',
       description: 'Caffè shakerato con ghiaccio',
       price: 2.00,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/2.jpeg',
+      image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&h=300&fit=crop',
       allergens: [],
       dietary: ['vegan']
     },
@@ -118,7 +119,7 @@ export const menuData = {
       type: 'CAFFÈ SPECIALE',
       description: 'Caffè con aromi speciali',
       price: 2.30,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/2.jpeg',
+      image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&h=300&fit=crop',
       allergens: [],
       dietary: []
     },
@@ -128,7 +129,7 @@ export const menuData = {
       type: 'CAFFÈ MACCHIATO',
       description: 'Caffè macchiato con più schiuma di latte',
       price: 1.50,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/2.jpeg',
+      image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&h=300&fit=crop',
       allergens: ['lactose'],
       dietary: []
     },
@@ -171,7 +172,7 @@ export const menuData = {
       type: 'DOLCE',
       description: 'Croissant classico',
       price: 1.50,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/oaDXvOgIxLpVGrvU.webp',
+      image: 'https://images.unsplash.com/photo-1529070538774-1843cb3265df?w=400&h=300&fit=crop',
       allergens: ['gluten', 'lactose'],
       dietary: []
     },
@@ -181,7 +182,7 @@ export const menuData = {
       type: 'DOLCE',
       description: 'Mini croissant classico',
       price: 1.10,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/FWUTsOSWDBwMIJBW.jpeg',
+      image: 'https://images.unsplash.com/photo-1529070538774-1843cb3265df?w=400&h=300&fit=crop',
       allergens: ['gluten', 'lactose'],
       dietary: []
     },
@@ -191,7 +192,7 @@ export const menuData = {
       type: 'DOLCE',
       description: 'Assortimento di crostate e frolle',
       price: 1.50,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/2.jpeg',
+      image: 'https://images.unsplash.com/photo-1529070538774-1843cb3265df?w=400&h=300&fit=crop',
       allergens: ['gluten', 'lactose', 'eggs'],
       dietary: []
     },
@@ -201,7 +202,7 @@ export const menuData = {
       type: 'DOLCE',
       description: 'Biscotti di vario tipo',
       price: 0.50,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/AubcQNnPpElMXVbK.jpg',
+      image: 'https://images.unsplash.com/photo-1529070538774-1843cb3265df?w=400&h=300&fit=crop',
       allergens: ['gluten', 'lactose', 'eggs'],
       dietary: []
     },
@@ -211,7 +212,7 @@ export const menuData = {
       type: 'DOLCE',
       description: 'Mini crostate con pesche fresche',
       price: 1.00,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/xmGHUnKdlIBZFvsz.jpg',
+      image: 'https://images.unsplash.com/photo-1529070538774-1843cb3265df?w=400&h=300&fit=crop',
       allergens: ['gluten', 'lactose', 'eggs'],
       dietary: []
     }
@@ -224,7 +225,7 @@ export const menuData = {
       type: 'ACQUA',
       description: 'Acqua minerale naturale in bottiglia da 50 cl',
       price: 1.20,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/acqua_50cl.jpeg',
+      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=400&h=300&fit=crop',
       allergens: [],
       dietary: ['vegan']
     },
@@ -234,7 +235,7 @@ export const menuData = {
       type: 'ACQUA',
       description: 'Acqua minerale naturale in bottiglia da 75 cl',
       price: 1.80,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/acqua_75cl.jpeg',
+      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=400&h=300&fit=crop',
       allergens: [],
       dietary: ['vegan']
     },
@@ -244,7 +245,7 @@ export const menuData = {
       type: 'ACQUA',
       description: 'Acqua minerale naturale in bottiglia da 150 cl',
       price: 1.90,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/acqua_150cl.jpeg',
+      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=400&h=300&fit=crop',
       allergens: [],
       dietary: ['vegan']
     },
@@ -254,7 +255,7 @@ export const menuData = {
       type: 'DIGESTIVO',
       description: 'Bevanda effervescente digestiva',
       price: 1.50,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/effervescente.jpeg',
+      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=400&h=300&fit=crop',
       allergens: [],
       dietary: ['vegan']
     },
@@ -264,7 +265,7 @@ export const menuData = {
       type: 'SUCCO',
       description: 'Succo di frutta naturale da 200 cl',
       price: 2.80,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/succo_200cl.jpeg',
+      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=400&h=300&fit=crop',
       allergens: [],
       dietary: ['vegan']
     },
@@ -274,7 +275,7 @@ export const menuData = {
       type: 'SUCCO',
       description: 'Succo di frutta biologico',
       price: 3.50,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/succo_bio.jpeg',
+      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=400&h=300&fit=crop',
       allergens: [],
       dietary: ['vegan', 'organic']
     },
@@ -284,7 +285,7 @@ export const menuData = {
       type: 'SPREMUTA',
       description: 'Spremuta fresca di agrumi',
       price: 3.50,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/spremuta_agrumi.jpeg',
+      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=400&h=300&fit=crop',
       allergens: [],
       dietary: ['vegan']
     },
@@ -294,7 +295,7 @@ export const menuData = {
       type: 'SPREMUTA',
       description: 'Spremuta fresca di melograno',
       price: 4.00,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/spremuta_melograno.jpeg',
+      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=400&h=300&fit=crop',
       allergens: [],
       dietary: ['vegan']
     },
@@ -304,7 +305,7 @@ export const menuData = {
       type: 'BIBITA',
       description: 'Bibite assortite in bottiglia da 20 cl',
       price: 2.60,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/bibite_20cl.jpeg',
+      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=400&h=300&fit=crop',
       allergens: [],
       dietary: []
     },
@@ -314,7 +315,7 @@ export const menuData = {
       type: 'BIBITA',
       description: 'Bibite assortite in bottiglia da 33 cl',
       price: 2.90,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/bibite_33cl.jpeg',
+      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=400&h=300&fit=crop',
       allergens: [],
       dietary: []
     },
@@ -324,7 +325,7 @@ export const menuData = {
       type: 'BIBITA',
       description: 'Bibite assortite in bottiglia PET da 45 cl',
       price: 2.90,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/bibite_45cl.jpeg',
+      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=400&h=300&fit=crop',
       allergens: [],
       dietary: []
     },
@@ -334,7 +335,7 @@ export const menuData = {
       type: 'BIBITA',
       description: 'Bibite assortite in bottiglia PET da 50 cl',
       price: 2.90,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/bibite_50cl.jpeg',
+      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=400&h=300&fit=crop',
       allergens: [],
       dietary: []
     },
@@ -344,7 +345,7 @@ export const menuData = {
       type: 'BIBITA',
       description: 'Bibite assortite in lattina da 250 cl',
       price: 2.10,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/bibite_lattina.jpeg',
+      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=400&h=300&fit=crop',
       allergens: [],
       dietary: []
     },
@@ -354,7 +355,7 @@ export const menuData = {
       type: 'ENERGY DRINK',
       description: 'Red Bull energy drink in lattina',
       price: 3.20,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/red_bull.jpeg',
+      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=400&h=300&fit=crop',
       allergens: [],
       dietary: []
     },
@@ -364,22 +365,20 @@ export const menuData = {
       type: 'TÈ',
       description: 'Tè freddo Estathé in brick',
       price: 1.50,
-      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663126501606/estathe.jpeg',
+      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=400&h=300&fit=crop',
       allergens: [],
       dietary: []
     }
   ],
 
-
-
-  pasticceria: [
+  bevande_alcoliche: [
     {
       id: 14,
       name: 'Cornetto alla Crema',
       type: 'DOLCE',
       description: 'Cornetto fresco ripieno di crema pasticcera',
       price: 1.50,
-      image: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1590080875830-57886b1b8f21?w=400&h=300&fit=crop',
       allergens: ['gluten', 'eggs', 'lactose'],
       dietary: []
     },
@@ -389,7 +388,7 @@ export const menuData = {
       type: 'DOLCE',
       description: 'Maritozzo romano con panna montata',
       price: 2.50,
-      image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1590080875830-57886b1b8f21?w=400&h=300&fit=crop',
       allergens: ['gluten', 'eggs', 'lactose'],
       dietary: []
     },
@@ -399,7 +398,7 @@ export const menuData = {
       type: 'DOLCE',
       description: 'Tiramisù della casa con mascarpone e caffè',
       price: 4.50,
-      image: 'https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1590080875830-57886b1b8f21?w=400&h=300&fit=crop',
       allergens: ['gluten', 'eggs', 'lactose'],
       dietary: []
     }
@@ -412,7 +411,7 @@ export const menuData = {
       type: 'PRIMO',
       description: 'Spaghetti alla carbonara tradizionale romana',
       price: 8.50,
-      image: 'https://images.unsplash.com/photo-1621996346565-e3dbc353d2e5?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=400&h=300&fit=crop',
       allergens: ['gluten', 'eggs', 'lactose'],
       dietary: []
     },
@@ -422,7 +421,7 @@ export const menuData = {
       type: 'SECONDO',
       description: 'Insalata Caesar con pollo grigliato',
       price: 7.00,
-      image: 'https://images.unsplash.com/photo-1546793665-c74683f339c1?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=400&h=300&fit=crop',
       allergens: ['eggs', 'lactose'],
       dietary: []
     },
@@ -432,7 +431,7 @@ export const menuData = {
       type: 'PRIMO',
       description: 'Risotto cremoso con funghi porcini freschi',
       price: 12.00,
-      image: 'https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=400&h=300&fit=crop',
       allergens: ['lactose'],
       dietary: ['vegetarian']
     }
@@ -457,3 +456,4 @@ export const dietaryIcons = {
   spicy: '🌶️',
   gluten_free: '🚫🌾'
 };
+
