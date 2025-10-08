@@ -104,9 +104,9 @@ function App() {
                       />
                       <div className="absolute inset-0 bg-black/20 hover:bg-black/10 transition-colors duration-300" />
                     </div>
-                    <CardHeader className="text-center p-0">
-                      <CardTitle className="text-2xl">{category.name}</CardTitle>
-                      <CardDescription className="text-base">
+                    <CardHeader className="text-center p-4 h-28 flex flex-col justify-center">
+                      <CardTitle className="text-xl font-bold leading-tight">{category.name}</CardTitle>
+                      <CardDescription className="text-sm text-muted-foreground mt-1 leading-tight">
                         {category.description}
                       </CardDescription>
                     </CardHeader>
