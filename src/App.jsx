@@ -57,8 +57,8 @@ function App() {
                     className="h-12 w-auto object-contain rounded-lg"
                   />
                   <div>
-                    <h1 className="text-2xl font-bold text-primary"></h1>
-                    <p className="text-sm text-muted-foreground"></p>
+                    <h1 className="text-2xl font-bold text-primary">Linc Caffè Zero</h1>
+                    <p className="text-sm text-muted-foreground">Terni</p>
                   </div>
                 </div>
 
@@ -93,23 +93,23 @@ function App() {
                   transition={{ duration: 0.3 }}
                 >
                   <Card 
-                    className="cursor-pointer hover:shadow-xl transition-all duration-300 transform hover:scale-105 border-0 bg-transparent"
+                    className="category-card cursor-pointer"
                     onClick={() => setSelectedCategory(category)}
                   >
-                    <div className="relative flex items-center justify-center h-48">
+                    <div className="category-image-container">
                       <img
                         src={category.image}
                         alt={category.name}
-                        className="object-cover transition-transform duration-300 hover:scale-110 w-full h-full"
+                        className="category-image"
                       />
-                      <div className="absolute inset-0 bg-black/20 hover:bg-black/10 transition-colors duration-300" />
+                      <div className="category-overlay" />
                     </div>
-                    <CardHeader className="text-center p-4 h-28 flex flex-col justify-center">
-                      <CardTitle className="text-xl font-bold leading-tight line-clamp-2">{category.name}</CardTitle>
-                      <CardDescription className="text-sm text-muted-foreground mt-1 leading-tight line-clamp-2">
+                    <div className="category-text-content">
+                      <CardTitle className="text-xl font-bold leading-tight line-clamp-2 mb-2">{category.name}</CardTitle>
+                      <CardDescription className="text-sm text-muted-foreground leading-tight line-clamp-2">
                         {category.description}
                       </CardDescription>
-                    </CardHeader>
+                    </div>
                   </Card>
                 </motion.div>
               ))}
@@ -185,9 +185,9 @@ function App() {
           <footer className="border-t bg-muted/50 mt-12">
             <div className="container mx-auto px-4 py-8">
               <div className="text-center">
-                <h3 className="text-lg font-semibold mb-2">Manus - Menu Digitale</h3>
+                <h3 className="text-lg font-semibold mb-2">Linc Caffè Zero - Terni</h3>
                 <p className="text-muted-foreground">
-                  Un'esperienza culinaria moderna e interattiva
+                  Menu Digitale Interattivo
                 </p>
                 <div className="mt-4 text-sm text-muted-foreground">
                   <p>Sviluppato con ❤️ per il settore della ristorazione</p>
