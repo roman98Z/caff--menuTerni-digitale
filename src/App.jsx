@@ -53,7 +53,7 @@ function App() {
                 <div className="flex items-center space-x-3">
                   <img 
                     src={logoImage} 
-                    alt="Manus Logo" 
+                    alt="Linc Caffè Zero Logo" 
                     className="h-12 w-auto object-contain rounded-lg"
                   />
                   <div>

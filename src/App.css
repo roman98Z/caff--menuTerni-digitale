@@ -214,3 +214,89 @@
     height: 160px;
   }
 }
+
+
+/* Stili specifici per le card delle categorie */
+.category-card {
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: all 0.3s ease;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.category-image-container {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
+}
+
+.category-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease;
+}
+
+.category-image:hover {
+  transform: scale(1.05);
+}
+
+.category-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.3));
+  transition: background 0.3s ease;
+}
+
+.category-card:hover .category-overlay {
+  background: linear-gradient(to bottom, rgba(0,0,0,0.05), rgba(0,0,0,0.2));
+}
+
+/* Rimuovi bordi bianchi e padding indesiderati */
+.category-card .card-content {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: transparent;
+}
+
+/* Assicurati che le immagini riempiano completamente il container */
+.category-card img {
+  display: block;
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Stili per il contenuto del testo delle categorie */
+.category-text-content {
+  padding: 1rem;
+  background: var(--white);
+  border-radius: 0 0 var(--border-radius) var(--border-radius);
+}
+
+/* Responsive design per le immagini */
+@media (max-width: 768px) {
+  .category-image-container {
+    height: 180px;
+  }
+}
+
+@media (max-width: 480px) {
+  .category-image-container {
+    height: 160px;
+  }
+}
+
