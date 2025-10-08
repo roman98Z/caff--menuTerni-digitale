@@ -7,14 +7,14 @@ export const categories = [
     description: 'Taglieri, bruschette e piatti per l\'aperitivo',    image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&h=400&fit=crop'
   },
   {
-    id: 'vini',
+    id: 'colazioni',
     name: 'COLAZIONI & AMERICAN LIFESTYLE',
     description: 'Selezione di vini bianchi, rossi e rosé',    image: 'https://images.unsplash.com/photo-1590080875830-57886b1b8f21?w=600&h=400&fit=crop'
   },
   {
-    id: 'gin',
+    id: 'bevande_analcoliche',
     name: 'BEVANDE ANALCOLICHE',
-    description: 'Gin premium e cocktail signature',
+    description: 'Bevande analcoliche di vario tipo',
     image: 'https://images.unsplash.com/photo-1590080875830-57886b1b8f21?w=600&h=400&fit=crop'  },
 
   {
@@ -164,7 +164,7 @@ export const menuData = {
     }
   ],
 
-  vini: [
+  colazioni: [
     {
       id: 14,
       name: 'Croissant',
@@ -217,7 +217,7 @@ export const menuData = {
     }
   ],
 
-  gin: [
+  bevande_analcoliche: [
     {
       id: 20,
       name: 'Acqua minerale bottiglia 50 cl',
