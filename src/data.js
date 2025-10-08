@@ -5,31 +5,31 @@ export const categories = [
     id: 'caffetteria',
     name: 'CAFFETTERIA',
     description: 'Caffè, cappuccini e altre bevande calde',
-    image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&h=400&fit=crop'
+    image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&h=400&fit=crop' // Immagine per Caffetteria
   },
   {
     id: 'colazioni',
     name: 'COLAZIONI & AMERICAN LIFESTYLE',
     description: 'Croissant, torte e altre dolcezze',
-    image: 'https://images.unsplash.com/photo-1529070538774-1843cb3265df?w=600&h=400&fit=crop'
+    image: 'https://images.unsplash.com/photo-1529070538774-1843cb3265df?w=600&h=400&fit=crop' // Immagine per Colazioni
   },
   {
     id: 'bevande_analcoliche',
     name: 'BEVANDE ANALCOLICHE',
     description: 'Acque, bibite, succhi e altre bevande',
-    image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=600&h=400&fit=crop'
+    image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=600&h=400&fit=crop' // Immagine per Bevande Analcoliche
   },
   {
     id: 'bevande_alcoliche',
     name: 'BEVANDE ALCOLICHE',
     description: 'Birre, vini e cocktail',
-    image: 'https://images.unsplash.com/photo-1590080875830-57886b1b8f21?w=600&h=400&fit=crop'
+    image: 'https://images.unsplash.com/photo-1590080875830-57886b1b8f21?w=600&h=400&fit=crop' // Immagine per Bevande Alcoliche
   },
   {
     id: 'pranzo',
     name: 'Pranzo',
     description: 'Piatti principali e primi',
-    image: 'https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=600&h=400&fit=crop'
+    image: 'https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=600&h=400&fit=crop' // Immagine per Pranzo
   }
 ];
 
@@ -174,7 +174,7 @@ export const menuData = {
       type: 'DOLCE',
       description: 'Croissant classico',
       price: 1.50,
-      image: 'https://images.unsplash.com/photo-1529070538774-1843cb3265df?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1529070538774-1843cb3265df?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       allergens: ['gluten', 'lactose'],
       dietary: []
     },
@@ -184,7 +184,7 @@ export const menuData = {
       type: 'DOLCE',
       description: 'Mini croissant classico',
       price: 1.10,
-      image: 'https://images.unsplash.com/photo-1529070538774-1843cb3265df?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1529070538774-1843cb3265df?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       allergens: ['gluten', 'lactose'],
       dietary: []
     },
@@ -194,7 +194,7 @@ export const menuData = {
       type: 'DOLCE',
       description: 'Assortimento di crostate e frolle',
       price: 1.50,
-      image: 'https://images.unsplash.com/photo-1529070538774-1843cb3265df?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1529070538774-1843cb3265df?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       allergens: ['gluten', 'lactose', 'eggs'],
       dietary: []
     },
@@ -204,7 +204,7 @@ export const menuData = {
       type: 'DOLCE',
       description: 'Biscotti di vario tipo',
       price: 0.50,
-      image: 'https://images.unsplash.com/photo-1529070538774-1843cb3265df?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1529070538774-1843cb3265df?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       allergens: ['gluten', 'lactose', 'eggs'],
       dietary: []
     },
@@ -214,7 +214,7 @@ export const menuData = {
       type: 'DOLCE',
       description: 'Mini crostate con pesche fresche',
       price: 1.00,
-      image: 'https://images.unsplash.com/photo-1529070538774-1843cb3265df?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1529070538774-1843cb3265df?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       allergens: ['gluten', 'lactose', 'eggs'],
       dietary: []
     }
@@ -227,7 +227,7 @@ export const menuData = {
       type: 'ACQUA',
       description: 'Acqua minerale naturale in bottiglia da 50 cl',
       price: 1.20,
-      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       allergens: [],
       dietary: ['vegan']
     },
@@ -237,7 +237,7 @@ export const menuData = {
       type: 'ACQUA',
       description: 'Acqua minerale naturale in bottiglia da 75 cl',
       price: 1.80,
-      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       allergens: [],
       dietary: ['vegan']
     },
@@ -247,7 +247,7 @@ export const menuData = {
       type: 'ACQUA',
       description: 'Acqua minerale naturale in bottiglia da 150 cl',
       price: 1.90,
-      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       allergens: [],
       dietary: ['vegan']
     },
@@ -257,7 +257,7 @@ export const menuData = {
       type: 'DIGESTIVO',
       description: 'Bevanda effervescente digestiva',
       price: 1.50,
-      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       allergens: [],
       dietary: ['vegan']
     },
@@ -267,7 +267,7 @@ export const menuData = {
       type: 'SUCCO',
       description: 'Succo di frutta naturale da 200 cl',
       price: 2.80,
-      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       allergens: [],
       dietary: ['vegan']
     },
@@ -277,7 +277,7 @@ export const menuData = {
       type: 'SUCCO',
       description: 'Succo di frutta biologico',
       price: 3.50,
-      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       allergens: [],
       dietary: ['vegan', 'organic']
     },
@@ -287,7 +287,7 @@ export const menuData = {
       type: 'SPREMUTA',
       description: 'Spremuta fresca di agrumi',
       price: 3.50,
-      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       allergens: [],
       dietary: ['vegan']
     },
@@ -297,7 +297,7 @@ export const menuData = {
       type: 'SPREMUTA',
       description: 'Spremuta fresca di melograno',
       price: 4.00,
-      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       allergens: [],
       dietary: ['vegan']
     },
@@ -307,7 +307,7 @@ export const menuData = {
       type: 'BIBITA',
       description: 'Bibite assortite in bottiglia da 20 cl',
       price: 2.60,
-      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       allergens: [],
       dietary: []
     },
@@ -317,7 +317,7 @@ export const menuData = {
       type: 'BIBITA',
       description: 'Bibite assortite in bottiglia da 33 cl',
       price: 2.90,
-      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       allergens: [],
       dietary: []
     },
@@ -327,7 +327,7 @@ export const menuData = {
       type: 'BIBITA',
       description: 'Bibite assortite in bottiglia PET da 45 cl',
       price: 2.90,
-      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       allergens: [],
       dietary: []
     },
@@ -337,7 +337,7 @@ export const menuData = {
       type: 'BIBITA',
       description: 'Bibite assortite in bottiglia PET da 50 cl',
       price: 2.90,
-      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       allergens: [],
       dietary: []
     },
@@ -347,7 +347,7 @@ export const menuData = {
       type: 'BIBITA',
       description: 'Bibite assortite in lattina da 250 cl',
       price: 2.10,
-      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       allergens: [],
       dietary: []
     },
@@ -357,7 +357,7 @@ export const menuData = {
       type: 'ENERGY DRINK',
       description: 'Red Bull energy drink in lattina',
       price: 3.20,
-      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       allergens: [],
       dietary: []
     },
@@ -367,7 +367,7 @@ export const menuData = {
       type: 'TÈ',
       description: 'Tè freddo Estathé in brick',
       price: 1.50,
-      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       allergens: [],
       dietary: []
     }
@@ -380,7 +380,7 @@ export const menuData = {
       type: 'BIRRA',
       description: 'Birra artigianale IPA, 5.5% vol.',
       price: 5.00,
-      image: 'https://images.unsplash.com/photo-1590080875830-57886b1b8f21?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1590080875830-57886b1b8f21?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       allergens: ['gluten'],
       dietary: []
     },
@@ -390,7 +390,7 @@ export const menuData = {
       type: 'VINO',
       description: 'Calice di vino rosso selezionato',
       price: 4.50,
-      image: 'https://images.unsplash.com/photo-1590080875830-57886b1b8f21?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1590080875830-57886b1b8f21?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       allergens: ['sulfites'],
       dietary: []
     },
@@ -400,7 +400,7 @@ export const menuData = {
       type: 'COCKTAIL',
       description: 'Cocktail classico con rum, menta, lime e soda',
       price: 8.00,
-      image: 'https://images.unsplash.com/photo-1590080875830-57886b1b8f21?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1590080875830-57886b1b8f21?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       allergens: [],
       dietary: []
     }
@@ -413,7 +413,7 @@ export const menuData = {
       type: 'PRIMO',
       description: 'Spaghetti alla carbonara tradizionale romana',
       price: 8.50,
-      image: 'https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1600891964599-f61ba0e24092?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       allergens: ['gluten', 'eggs', 'lactose'],
       dietary: []
     },
@@ -423,7 +423,7 @@ export const menuData = {
       type: 'SECONDO',
       description: 'Insalata Caesar con pollo grigliato',
       price: 7.00,
-      image: 'https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1600891964599-f61ba0e24092?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       allergens: ['eggs', 'lactose'],
       dietary: []
     },
@@ -433,7 +433,7 @@ export const menuData = {
       type: 'PRIMO',
       description: 'Risotto cremoso con funghi porcini freschi',
       price: 12.00,
-      image: 'https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=400&h=300&fit=crop',
+      image: 'https://images.unsplash.com/photo-1600891964599-f61ba0e24092?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       allergens: ['lactose'],
       dietary: ['vegetarian']
     }
